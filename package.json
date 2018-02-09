@@ -1,0 +1,17 @@
+{
+  "name": "sapient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "natural": "^0.5.6",
+    "spell-checker-js": "^1.2.3",
+    "stopword": "^0.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
