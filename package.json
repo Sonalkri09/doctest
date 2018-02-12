@@ -1,7 +1,6 @@
 {
   "name": "sapient",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "natural": "^0.5.6",
@@ -14,5 +13,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sonalkri09/doctest.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Sonalkri09/doctest/issues"
+  },
+  "homepage": "https://github.com/Sonalkri09/doctest#readme",
+  "description": ""
 }
