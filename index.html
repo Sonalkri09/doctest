@@ -1,12 +1,38 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>DOCTEST</title>
+		<meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<h1>Click below for the detailed analysis of your document</h1>
-		<p id="msg"></p>
-		<button onclick="getData()">Request</button>
+		<h1><strong>DOCTEST</strong></h1>
+		
+		<center><button onclick="getData()" id="btd">Click Here to for doctest</button></center>
+		<div class="row">
+			<div class="col-sm-6">
+				<div id="standard">
+					<strong>Details of Standard document:</strong>
+					<div id="stdwc"></div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div id="target">
+					<strong>Details of Target document:</strong>
+					<div id="wc"></div>
+					<div id="mc"></div>
+					<div id="nc"></div>
+					<div id="vc"></div>
+					<div id="ac"></div>
+				</div>
+			</div>
+		</div>
+
+		<strong><div id="similar"></div></strong>
 		<script type="text/javascript" src="index.js"></script>
 
 	</body>

@@ -1,0 +1,19 @@
+body{
+	margin:auto;
+	width:80%;
+	background-color: #cce6ff;
+}
+h1{
+	text-align: center;
+
+}
+#whole{
+	text-align: center;
+
+}
+#btd{
+	padding: 20px;
+}
+.row{
+	padding-top: 50px;
+}
